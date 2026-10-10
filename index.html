@@ -1,19 +1,36 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script>
+  (function () {
+    const params = new URLSearchParams(window.location.search);
+    const path = params.get('p');
+
+    if (path !== null) {
+      const queryAndHash = params.get('q') || '';
+      const base = '/electrician-app/';
+
+      window.history.replaceState(
+        null,
+        '',
+        base + path.replace(/^\/+/, '') + queryAndHash
+      );
+    }
+  })();
+</script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/electrician-app/favicon.svg" />
-    <link rel="apple-touch-icon" href="/electrician-app/apple-touch-icon.png" />
-    <link rel="manifest" href="/electrician-app/manifest.webmanifest" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" href="/electrician-app/icon-192.png" />
+<link rel="manifest" href="/electrician-app/manifest.webmanifest" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#070b14" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Electricians Connect" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <title>Electricians Connect</title>
-    <script type="module" crossorigin src="/electrician-app/assets/index-Ds1e1ltS.js"></script>
-    <link rel="stylesheet" crossorigin href="/electrician-app/assets/index-D0jkHbzU.css">
+    <script type="module" crossorigin src="/electrician-app/assets/index-D8X9RRwy.js"></script>
+    <link rel="stylesheet" crossorigin href="/electrician-app/assets/index-CWP1n555.css">
   </head>
   <body>
     <div id="root"></div>

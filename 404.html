@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electricians Connect</title>
+    <script>
+      const segment = 1;
+      const locationParts = window.location.pathname.split('/');
+      const route = locationParts.slice(segment + 1).join('/');
+      const query = window.location.search;
+      const hash = window.location.hash;
+
+      window.location.replace(
+        '/electrician-app/?p=/' +
+          encodeURIComponent(route) +
+          '&q=' +
+          encodeURIComponent(query + hash)
+      );
+    </script>
+  </head>
+  <body></body>
+</html>

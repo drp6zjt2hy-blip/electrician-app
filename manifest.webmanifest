@@ -2,15 +2,30 @@
   "name": "Electricians Connect",
   "short_name": "Electricians Connect",
   "description": "Find verified electricians in Kampala, track them live and pay the price shown in the app.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/electrician-app/",
+  "scope": "/electrician-app/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#070b14",
   "theme_color": "#070b14",
   "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "/electrician-app/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/electrician-app/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/electrician-app/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
