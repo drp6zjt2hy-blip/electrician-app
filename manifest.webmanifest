@@ -1,7 +1,8 @@
+
 {
-  "name": "Electricians Connect",
-  "short_name": "Electricians Connect",
-  "description": "Find verified electricians in Kampala, track them live and pay the price shown in the app.",
+  "name": "YAKA FIX",
+  "short_name": "YAKA FIX",
+  "description": "Find trusted electricians in Kampala, track jobs live and pay the price shown in the app.",
   "start_url": "/electrician-app/",
   "scope": "/electrician-app/",
   "display": "standalone",

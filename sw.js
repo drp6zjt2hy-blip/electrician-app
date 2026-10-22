@@ -44,7 +44,7 @@ self.addEventListener('push', (event) => {
     }
   }
 
-  const title = data.title || 'Electricians Connect'
+  const title = data.title || 'YAKA FIX'
 
   const options = {
     body: data.body || '',
